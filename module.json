@@ -1,0 +1,16 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Negotiator",
+    "author": "Pinkie Pie / TeraProxy",
+    "description": "A tera-proxy module that automatically accepts or declines Trade Broker negotiations.",
+    "version": "1.0.0",
+    "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ",
+    "options": {
+        "niceName": "Nego",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/TeraProxy/Negotiator/master/"],
+    "supportUrl": "https://github.com/TeraProxy/Negotiator/issues"
+}

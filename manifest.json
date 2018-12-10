@@ -1,0 +1,56 @@
+{
+	"files": {
+		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+		"README.md": "f9d5696d764c541434398ba04c795515013c53a9a49ad3b46dfc1d4f2fd151ae",
+		"index.js": "94a75afabcc6e21170d194080508f2567d5813078daf1bdc39c82fc413618d1d",
+		"module.json": "4cb55b7bf028f61080d9ed1749e5dd1513bb821811a37952a0722bf9be22a7e5",
+		"settings_migrator.js": "4c0afece4393ad768ce97f590c97d8c1ca250134aa82865d0e94e0a6454bb1d4",
+		"strings/strings.eu.json": {
+			"region": "eu",
+			"hash": "e0572e04d5c045844fc9e1b011e24e1f0332d29bb17c2f7df3f1c93290780496"
+		},
+		"strings/strings.jp.json": {
+			"region": "jp",
+			"hash": "1cb8d2801f99c372449fa390e6f91fe9a565e3b9243f16e11b842849b076b643"
+		},
+		"strings/strings.kr.json": {
+			"region": "kr",
+			"hash": "aad371f92bfa40b19c3caa25ca9756e4e3bb39e601ad86f58e0e1f9161fb9efa"
+		},
+		"strings/strings.na.json": {
+			"region": "na",
+			"hash": "070f1722d7230f90e203dbcaa8e02922be5059f64e94b4f388a76013a6face70"
+		},
+		"strings/strings.ru.json": {
+			"region": "ru",
+			"hash": "2c74ea7254d44b3bc0a453e24137774d61022f4c00b4ee3423e102727e5a29d9"
+		},
+		"strings/strings.se.json": {
+			"region": "se",
+			"hash": "7b4bd269af732c594fd71b4e48cc837e436c50b1321dbdc43b24d71ee1022816"
+		},
+		"strings/strings.th.json": {
+			"region": "th",
+			"hash": "444cca95ff686189968c0f5840abea8a48dd068f642d7a1298fd9e8c95cfb0ab"
+		},
+		"strings/strings.tw.json": {
+			"region": "tw",
+			"hash": "ed789db764b0c007ece97f74258949c052c279a2515d3d8214fbcf5f58cba075"
+		}
+	},
+	"defs": {
+		"C_CANCEL_CONTRACT": 1,
+		"C_REQUEST_CONTRACT": 1,
+		"C_TRADE_BROKER_DEAL_CONFIRM": 1,
+		"C_TRADE_BROKER_REJECT_SUGGEST": 1,
+		"S_ACCEPT_CONTRACT": 1,
+		"S_CANCEL_CONTRACT": 1,
+		"S_REJECT_CONTRACT": 1,
+		"S_REPLY_REQUEST_CONTRACT": 1,
+		"S_REQUEST_CONTRACT": 1,
+		"S_SYSTEM_MESSAGE": 1,
+		"S_TRADE_BROKER_DEAL_INFO_UPDATE": 1,
+		"S_TRADE_BROKER_DEAL_SUGGESTED": 1,
+		"S_TRADE_BROKER_REQUEST_DEAL_RESULT": 1
+	}
+}
