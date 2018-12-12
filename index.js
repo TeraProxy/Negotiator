@@ -102,10 +102,13 @@ module.exports = function Negotiator(mod) {
 
 			// Fix listing becoming un-negotiable (server-side) if the other user aborts the initial dialog
 			if(event.type == TYPE_NEGOTIATION_PENDING)
-				mod.toServer('C_TRADE_BROKER_REJECT_SUGGEST', 1, {
-					playerId: currentDeal.playerId,
-					listing: currentDeal.listing
-				})
+				setTimeout(currentDeal =>
+				{
+					mod.toServer('C_TRADE_BROKER_REJECT_SUGGEST', 1, {
+						playerId: currentDeal.playerId,
+						listing: currentDeal.listing
+					})
+				}, rng(ACTION_DELAY_LONG_MS), currentDeal)
 
 			currentContract = null
 			endDeal()
