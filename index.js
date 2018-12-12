@@ -330,8 +330,8 @@ module.exports = function Negotiator(mod) {
 			default:
 				switch(mod.settings.enabled)
 				{
-					case true: mod.command.exec('nego off') break
-					case false: mod.command.exec('nego on') break
+					case true: mod.command.exec('nego off'); break
+					case false: mod.command.exec('nego on'); break
 				}
 				mod.command.message('Commands:\n' 
 					+ ' "nego [on|off]" (enable/disable auto negotiate)\n'
