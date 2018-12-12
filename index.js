@@ -31,6 +31,8 @@ module.exports = function Negotiator(mod) {
 	// ############# //
 	// ### Hooks ### //
 	// ############# //
+	
+	mod.hook('S_LOAD_TOPO', 'raw', () => { mod.command.exec('nego off') })
 
 	mod.hook('S_TRADE_BROKER_DEAL_SUGGESTED', 1, event => {
 		if(!mod.settings.enabled) return
@@ -328,8 +330,8 @@ module.exports = function Negotiator(mod) {
 			default:
 				switch(mod.settings.enabled)
 				{
-					case true: command.exec('nego off') break
-					case false: command.exec('nego on') break
+					case true: mod.command.exec('nego off') break
+					case false: mod.command.exec('nego on') break
 				}
 				mod.command.message('Commands:\n' 
 					+ ' "nego [on|off]" (enable/disable auto negotiate)\n'
