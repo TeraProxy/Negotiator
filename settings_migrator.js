@@ -1,6 +1,7 @@
 "use strict"
 
 const DefaultSettings = {
+	"enabled": false,
 	"AUTO_ACCEPT_THRESHOLD": 100,
 	"AUTO_REJECT_THRESHOLD": 75,
 	"UNATTENDED_MANUAL_NEGOTIATE": false,
