@@ -2,7 +2,7 @@
 Should work on all regions as long as the opcodes are mapped. Works on Caali's and Pinkie Pie's tera-proxy.  
 
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
-1) Download Negotiator: https://github.com/TeraProxy/Negotiator/archive/master.zip
+1) Download Negotiator: https://github.com/Foks5000/Negotiator/archive/master.zip
 2) Extract the contents of the zip file into "\tera-proxy\mods\"
 3) Done! (the module will auto-update on Caali's tera-proxy when a new version is released)
   
