@@ -283,6 +283,16 @@ module.exports = function Negotiator(mod) {
 
 	mod.command.add('nego', (cmd, value) => {
 		switch (cmd) {
+			case "on":
+				mod.settings.enabled = true
+				mod.command.message(niceName + 'enabled')
+				console.log('[Nego] enabled')
+				break
+			case "off":
+				mod.settings.enabled = false
+				mod.command.message(niceName + 'disabled')
+				console.log('[Nego] disabled')
+				break
 			case "accept":
 				if(value) {
 					mod.settings.AUTO_ACCEPT_THRESHOLD = Number(value)
@@ -314,7 +324,13 @@ module.exports = function Negotiator(mod) {
 				console.log('[Nego] Logging to console ' + (mod.settings.log ? 'enabled' : 'disabled'))
 				break
 			default:
+				switch(mod.settings.enabled)
+				{
+					case true: command.exec('nego off') break
+					case false: command.exec('nego on') break
+				}
 				mod.command.message('Commands:\n' 
+					+ ' "nego [on|off]" (enable/disable auto negotiate)\n'
 					+ ' "nego accept [x]" (change the minimum percentage to accept a deal, e.g. "nego accept 100" [0 to disable])\n'
 					+ ' "nego reject [x]" (change the maximum percentage to reject a deal, e.g. "nego reject 75" [0 to disable])\n'
 					+ ' "nego unattended" (enable/disable automatically accepting deals after clicking the "Accept" link in chat)\n'
