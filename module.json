@@ -11,6 +11,6 @@
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },
-    "servers": ["https://raw.githubusercontent.com/TeraProxy/Negotiator/master/"],
-    "supportUrl": "https://github.com/TeraProxy/Negotiator/issues"
+    "servers": ["https://raw.githubusercontent.com/Foks5000/Negotiator/master/"],
+    "supportUrl": "https://github.com/Foks5000/Negotiator/issues"
 }
