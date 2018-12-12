@@ -33,6 +33,8 @@ module.exports = function Negotiator(mod) {
 	// ############# //
 
 	mod.hook('S_TRADE_BROKER_DEAL_SUGGESTED', 1, event => {
+		if(!mod.settings.enabled) return
+		
 		// Remove old deals that haven't been processed yet
 		for(let i = 0; i < pendingDeals.length; i++) {
 			let deal = pendingDeals[i]
