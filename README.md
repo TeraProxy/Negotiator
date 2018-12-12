@@ -17,6 +17,7 @@ This is a fork of Pinkie Pie's original auto-negotiate.
 ## Usage
 There are several options you can change in the config.json file (Pinkie's proxy: "\settings\Negotiator.json"):  
   
+* "**enabled**" - enable/disable auto negotiate
 * "**AUTO_ACCEPT_THRESHOLD**" - Automatically accepts offers for *equal or more than* the specified amount in % (0 to disable)
 ** Example: 99 will accept offers for 99% (or more) of the asking price
 * "**AUTO_REJECT_THRESHOLD**" - Automatically declines offers for *less* than the specified amount in % (0 to disable)
@@ -29,6 +30,7 @@ While in game, open a proxy chat session by typing "/proxy" or "/8" in chat and 
 This serves as the script's command interface.  
 The following commands are supported:  
   
+* **nego [on|off]** - enable/disable auto negotiate
 * **nego accept [x]** - change the minimum percentage to accept a deal, e.g. "nego accept 100" [0 to disable]
 * **nego reject [x]** - change the maximum percentage to reject a deal, e.g. "nego reject 75" [0 to disable]
 * **nego unattended** - enable/disable automatically accepting deals after clicking the "Accept" link in chat
