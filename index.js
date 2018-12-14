@@ -1,7 +1,7 @@
 'use strict'
 
-const ACTION_DELAY_LONG_MS		= [1800, 2800],	// [Min, Max]
-	ACTION_DELAY_SHORT_MS		= [600, 1000],	// [Min, Max]
+const ACTION_DELAY_LONG_MS = [1800, 2800],	// [Min, Max]
+	ACTION_DELAY_SHORT_MS = [600, 1000],	// [Min, Max]
 	TYPE_NEGOTIATION_PENDING = 35,
 	TYPE_NEGOTIATION = 36
 
