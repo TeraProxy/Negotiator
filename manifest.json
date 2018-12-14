@@ -1,13 +1,13 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "163263fd21318b7ddc9f0da4577ed9e0418cfb007d78b1a2b7a233805f69363a",
+		"README.md": "2275f9bd525c43f098b15b69a9c34e6a4baa2140ff96ab6b013e88edbfeda2eb",
 		"config.json": {
 			"overwrite": false,
 			"hash": "58eea94003c2dac0f01c1cc7c9df91aa11ed2e95a15ca417103e92ffc956a10d"
 		},
-		"index.js": "9ea7f52c2db54c92fe37ab99e28ca7716703629ad1740d831c2ec35f3b283a92",
-		"module.json": "4cb55b7bf028f61080d9ed1749e5dd1513bb821811a37952a0722bf9be22a7e5",
+		"index.js": "d8be1b4d740c223f56f296b2fc08f5369a0b90d8a019911f4de90206e9dc08dc",
+		"module.json": "dd6a0601b3d11d6d9c15410557a2a91e6fe34413d5226ec21c8818ebb1a85d6b",
 		"settings_migrator.js": "4c0afece4393ad768ce97f590c97d8c1ca250134aa82865d0e94e0a6454bb1d4",
 		"strings/strings.eu.json": {
 			"region": "eu",
