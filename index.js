@@ -1,7 +1,7 @@
 'use strict'
 
-const ACTION_DELAY_LONG_MS		= [1800, 2800],	// [Min, Max]
-	ACTION_DELAY_SHORT_MS		= [600, 1000],	// [Min, Max]
+const ACTION_DELAY_LONG_MS = [1800, 2800],	// [Min, Max]
+	ACTION_DELAY_SHORT_MS = [600, 1000],	// [Min, Max]
 	TYPE_NEGOTIATION_PENDING = 35,
 	TYPE_NEGOTIATION = 36
 
@@ -300,16 +300,16 @@ module.exports = function Negotiator(mod) {
 			case "accept":
 				if(value) {
 					mod.settings.AUTO_ACCEPT_THRESHOLD = Number(value)
-					mod.command.message(niceName + 'Auto accept threshold set to <font color="#F0E442">' + AUTO_ACCEPT_THRESHOLD + '</font>')
-					console.log('[Nego] Auto accept threshold set to <font color="#F0E442">' + AUTO_ACCEPT_THRESHOLD + '</font>')
+					mod.command.message(niceName + 'Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_ACCEPT_THRESHOLD + '</font>')
+					console.log('[Nego] Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_ACCEPT_THRESHOLD + '</font>')
 				}
 				break
 			case "decline":
 			case "reject":
 				if(value) {
 					mod.settings.AUTO_REJECT_THRESHOLD = Number(value)
-					mod.command.message(niceName + 'Auto accept threshold set to <font color="#F0E442">' + AUTO_REJECT_THRESHOLD + '</font>')
-					console.log('[Nego] Auto accept threshold set to <font color="#F0E442">' + AUTO_REJECT_THRESHOLD + '</font>')
+					mod.command.message(niceName + 'Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_REJECT_THRESHOLD + '</font>')
+					console.log('[Nego] Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_REJECT_THRESHOLD + '</font>')
 				}
 				break
 			case "unattended":
