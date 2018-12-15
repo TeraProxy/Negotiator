@@ -284,7 +284,7 @@ module.exports = function Negotiator(mod) {
 				if(value) {
 					mod.settings.AUTO_ACCEPT_THRESHOLD = Number(value)
 					mod.command.message(niceName + 'Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_ACCEPT_THRESHOLD + '</font>')
-					console.log('[Nego] Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_ACCEPT_THRESHOLD + '</font>')
+					console.log('[Nego] Auto accept threshold set to ' + mod.settings.AUTO_ACCEPT_THRESHOLD)
 				}
 				break
 			case "decline":
@@ -292,7 +292,7 @@ module.exports = function Negotiator(mod) {
 				if(value) {
 					mod.settings.AUTO_REJECT_THRESHOLD = Number(value)
 					mod.command.message(niceName + 'Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_REJECT_THRESHOLD + '</font>')
-					console.log('[Nego] Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_REJECT_THRESHOLD + '</font>')
+					console.log('[Nego] Auto reject threshold set to ' + mod.settings.AUTO_REJECT_THRESHOLD)
 				}
 				break
 			case "unattended":
