@@ -4,9 +4,9 @@
 		"README.md": "2275f9bd525c43f098b15b69a9c34e6a4baa2140ff96ab6b013e88edbfeda2eb",
 		"config.json": {
 			"overwrite": false,
-			"hash": "58eea94003c2dac0f01c1cc7c9df91aa11ed2e95a15ca417103e92ffc956a10d"
+			"hash": "e6425428c4779e7ee0ff8808d932b6459b8c058a52872f9513ea3b48699f425e"
 		},
-		"index.js": "91ee43fddf4d529363413ab143fa43f6c3206b74aadfbba9059b6ac3c9ae6a96",
+		"index.js": "dd6cbad71f0242728678ba4145892ad07e0374172eb4da8be947b38d5146d2b8",
 		"module.json": "dd6a0601b3d11d6d9c15410557a2a91e6fe34413d5226ec21c8818ebb1a85d6b",
 		"settings_migrator.js": "4c0afece4393ad768ce97f590c97d8c1ca250134aa82865d0e94e0a6454bb1d4",
 		"strings/strings.eu.json": {

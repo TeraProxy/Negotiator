@@ -291,7 +291,7 @@ module.exports = function Negotiator(mod) {
 			case "reject":
 				if(value) {
 					mod.settings.AUTO_REJECT_THRESHOLD = Number(value)
-					mod.command.message(niceName + 'Auto accept threshold set to <font color="#F0E442">' + mod.settings.AUTO_REJECT_THRESHOLD + '</font>')
+					mod.command.message(niceName + 'Auto reject threshold set to <font color="#F0E442">' + mod.settings.AUTO_REJECT_THRESHOLD + '</font>')
 					console.log('[Nego] Auto reject threshold set to ' + mod.settings.AUTO_REJECT_THRESHOLD)
 				}
 				break
