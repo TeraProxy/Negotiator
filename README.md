@@ -45,6 +45,8 @@ Original by Pinkie Pie -> https://github.com/pinkipi
 ## Changelog
 <details>
 
+### 1.0.2
+* [+] Added notice on successful negotiation
 ### 1.0.1
 * [*] Fixed a bug with changing accept and refuse threshold ingame
 ### 1.0.0

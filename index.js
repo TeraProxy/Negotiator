@@ -7,17 +7,6 @@ const ACTION_DELAY_LONG_MS = [1800, 2800],	// [Min, Max]
 
 module.exports = function Negotiator(mod) {
 
-	if(mod.proxyAuthor !== 'caali') {
-		const options = require('./module').options
-		if(options) {
-			const settingsVersion = options.settingsVersion
-			if(settingsVersion) {
-				mod.settings = require('./' + (options.settingsMigrator || 'module_settings_migrator.js'))(mod.settings._version, settingsVersion, mod.settings)
-				mod.settings._version = settingsVersion
-			}
-		}
-	}
-
 	const strings = require('./strings/strings.' + mod.region + '.json')["item"]
 
 	let recentDeals = mod.settings.UNATTENDED_MANUAL_NEGOTIATE ? {} : null,
@@ -130,6 +119,11 @@ module.exports = function Negotiator(mod) {
 				if(msg.id === 'SMT_MEDIATE_TRADE_CANCEL_OPPONENT') {
 					mod.command.message(niceName + currentDeal.name + ' cancelled negotiation')
 					if(mod.settings.log) console.log(now() + ' [Nego] ' + currentDeal.name + ' cancelled negotiation')
+					return false
+				}
+				else if(msg.id === 'SMT_MEDIATE_SUCCESS_SELL') {
+					mod.command.message(niceName + 'Negotiation with ' + currentDeal.name + ' successful')
+					if(mod.settings.log) console.log(now() + ' [Nego] Negotiation with ' + currentDeal.name + ' successful')
 					return false
 				}
 			}
@@ -318,7 +312,6 @@ module.exports = function Negotiator(mod) {
 					+ ' "nego delay" (switch between human-like behavior and immediate negotiation)\n'
 					+ ' "nego log" (enable/disable logging to console)'
 				)
-				break
 		}
 	})
 }
