@@ -3,7 +3,7 @@
     "name": "Negotiator",
     "author": "Pinkie Pie / TeraProxy",
     "description": "Automatically accepts or declines Trade Broker negotiations.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ",
     "options": {
         "niceName": "Nego",

@@ -4,10 +4,10 @@
         "README.md": "6568531931417c77349e9807e4ec3053986ffb226da911cfe2ab7df542246faa",
         "config.json": {
             "overwrite": false,
-            "hash": "e6425428c4779e7ee0ff8808d932b6459b8c058a52872f9513ea3b48699f425e"
+            "hash": "10ca63563c55344ed76ede681a40614aabe60073578a9840dc64dac50cab549d"
         },
-        "index.js": "1706c13764575bd7121dcee7a314559b28d260bbec3b12701234cdcdaa212c9d",
-        "module.json": "fd70f822f1703225b8b4855c034823a9e4dfb4d41f55860e68ea51260ce9eb23",
+        "index.js": "c788bf3b8466adfd300dbd788f98f223db26818116089eadb075fdbf35612189",
+        "module.json": "7a1eff156c69bdc9b1fa0558c89e78295fa84cfe0bbf103a5aabf6d38ce3b156",
         "settings_migrator.js": "4c0afece4393ad768ce97f590c97d8c1ca250134aa82865d0e94e0a6454bb1d4",
         "strings/strings.eu.json": {
             "region": "eu",
@@ -23,7 +23,7 @@
         },
         "strings/strings.na.json": {
             "region": "na",
-            "hash": "e1447fa0372177a6aadfd634ace56853c804865b8a479bb4533987edf16fbea8"
+            "hash": "b44ce45b8ee82911cc2a96239166032c63435346c7e6326c15d1a1f983617285"
         },
         "strings/strings.ru.json": {
             "region": "ru",
