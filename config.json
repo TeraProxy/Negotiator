@@ -5,6 +5,6 @@
         "AUTO_REJECT_THRESHOLD": 75,
         "UNATTENDED_MANUAL_NEGOTIATE": false,
         "DELAY_ACTIONS": true,
-        "log": false
+        "log": true
     }
 }
