@@ -7,15 +7,15 @@
             "hash": "e6425428c4779e7ee0ff8808d932b6459b8c058a52872f9513ea3b48699f425e"
         },
         "index.js": "c788bf3b8466adfd300dbd788f98f223db26818116089eadb075fdbf35612189",
-        "module.json": "7a1eff156c69bdc9b1fa0558c89e78295fa84cfe0bbf103a5aabf6d38ce3b156",
+        "module.json": "fd70f822f1703225b8b4855c034823a9e4dfb4d41f55860e68ea51260ce9eb23",
         "settings_migrator.js": "4c0afece4393ad768ce97f590c97d8c1ca250134aa82865d0e94e0a6454bb1d4",
-        "strings/strings.eu.json": "f4ac20f287eddadaf9cd6fb6c0e819180de3cad32034d477f464a44aff142f2b",
-        "strings/strings.jp.json": "5b01133f268807b5cdc521322c42bfee0aae785108b9c44b06f5bd56920f10ab",
-        "strings/strings.kr.json": "e263265ac4b1ab163fc6a1fc14904c43f5d8e2dd3540b17a40577ff7d4b5679d",
-        "strings/strings.na.json": "08722b496a309090e6b93f8e37a65565e23d7a72c2d839b51483acb5526869fd",
-        "strings/strings.ru.json": "69fb59982b882aa35e13d7d3f3ba76ea947fe232e9550d0d9a7040b610af8d09",
-        "strings/strings.se.json": "1bfe3266b904b4f5e708ef71e87d7c6fe1f6f6c0169aa2f2451611d79720dfe7",
-        "strings/strings.th.json": "473c7cd1185036ecb1b3aa9c91d99c72be7c648e63508dd52040480e70a54bdc",
+        "strings/strings.eu.json": "a4202c958affb7870e88679a9bbac9a50b4b6b41fd56878bfe2ccc0eb0c33b5a",
+        "strings/strings.jp.json": "a545bde7f38a6c35f4f92e84499ed82fbf91b9f9bd9746d0c608a93cf659a880",
+        "strings/strings.kr.json": "0453533d50d4eed684328d59e9f4c40bd4d382744e8549703d70617dd0b64763",
+        "strings/strings.na.json": "0a25d78a489ed1c14246556e8973382b48b3066d0317eb8f73fed9b9239fd1f0",
+        "strings/strings.ru.json": "a68e3adc196963c884b9a09ae50b8c0ade953d617cb5635fa7d49d30f6323215",
+        "strings/strings.se.json": "692b5f93d21d32bec8710450bce89b3874446b718d495ba95c1cc3e22cc35a24",
+        "strings/strings.th.json": "5a83a26ded3c2e78cee8601a7523cbb6e543dc27c949ff69891d7f62b9c442f4",
         "strings/strings.tw.json": "5dd07dd45466b7c181541b8fc0c66e83e3647cf50c22ebe60531cb5af29f214f"
     },
     "defs": {
