@@ -7,8 +7,6 @@ const ACTION_DELAY_LONG_MS = [1800, 2800],	// [Min, Max]
 
 module.exports = function Negotiator(mod) {
 
-	const strings = require('./strings/strings.' + mod.region + '.json')["item"]
-
 	let recentDeals = mod.settings.UNATTENDED_MANUAL_NEGOTIATE ? {} : null,
 		pendingDeals = [],
 		currentDeal = null,
@@ -265,7 +263,8 @@ module.exports = function Negotiator(mod) {
 	}
 
 	function conv(s) {
-		return strings[s] || "Undefined"
+		const data = mod.game.data.items.get(s)
+		return data ? data.name : "Undefined"
 	}
 
 	// ################ //

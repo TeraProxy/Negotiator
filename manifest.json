@@ -1,22 +1,14 @@
 {
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "6568531931417c77349e9807e4ec3053986ffb226da911cfe2ab7df542246faa",
+        "README.md": "25ca65fd95f7a2b431ab0422d8bc9480180c4996c4a8c17ffa8d155438d49d8d",
         "config.json": {
             "overwrite": false,
             "hash": "e6425428c4779e7ee0ff8808d932b6459b8c058a52872f9513ea3b48699f425e"
         },
-        "index.js": "c788bf3b8466adfd300dbd788f98f223db26818116089eadb075fdbf35612189",
-        "module.json": "fd70f822f1703225b8b4855c034823a9e4dfb4d41f55860e68ea51260ce9eb23",
-        "settings_migrator.js": "4c0afece4393ad768ce97f590c97d8c1ca250134aa82865d0e94e0a6454bb1d4",
-        "strings/strings.eu.json": "a4202c958affb7870e88679a9bbac9a50b4b6b41fd56878bfe2ccc0eb0c33b5a",
-        "strings/strings.jp.json": "a545bde7f38a6c35f4f92e84499ed82fbf91b9f9bd9746d0c608a93cf659a880",
-        "strings/strings.kr.json": "0453533d50d4eed684328d59e9f4c40bd4d382744e8549703d70617dd0b64763",
-        "strings/strings.na.json": "0a25d78a489ed1c14246556e8973382b48b3066d0317eb8f73fed9b9239fd1f0",
-        "strings/strings.ru.json": "a68e3adc196963c884b9a09ae50b8c0ade953d617cb5635fa7d49d30f6323215",
-        "strings/strings.se.json": "692b5f93d21d32bec8710450bce89b3874446b718d495ba95c1cc3e22cc35a24",
-        "strings/strings.th.json": "5a83a26ded3c2e78cee8601a7523cbb6e543dc27c949ff69891d7f62b9c442f4",
-        "strings/strings.tw.json": "5dd07dd45466b7c181541b8fc0c66e83e3647cf50c22ebe60531cb5af29f214f"
+        "index.js": "288ff92b3282d1ee8e403aff2ba7f3159ff13191187f490789b68dd366cb2b9c",
+        "module.json": "8400d1fa0495355f1be65bc2d645efd4823b33a2ca00997514797474bb22ecdd",
+        "settings_migrator.js": "4c0afece4393ad768ce97f590c97d8c1ca250134aa82865d0e94e0a6454bb1d4"
     },
     "defs": {
         "C_CANCEL_CONTRACT": 1,

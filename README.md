@@ -1,10 +1,10 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Should work on all regions as long as the opcodes are mapped. Works on Caali's and Pinkie Pie's tera-proxy.  
+Should work on all regions as long as the opcodes are mapped. Currently only works on TERA Toolbox.
 
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
 1) Download Negotiator: https://github.com/TeraProxy/Negotiator/archive/master.zip
 2) Extract the contents of the zip file into "\tera-proxy\mods\"
-3) Done! (the module will auto-update on Caali's tera-proxy when a new version is released)
+3) Done! (the module will auto-update when a new version is released)
   
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ)
 
@@ -15,7 +15,7 @@ This is a fork of Pinkie Pie's original auto-negotiate.
 ![Screenshot](https://i.imgur.com/uB74X4o.png)
 
 ## Usage
-There are several options you can change in the config.json file (Pinkie's proxy: "\settings\Negotiator.json"):  
+There are several options you can change in the config.json file:  
   
 * "**AUTO_ACCEPT_THRESHOLD**" - Automatically accepts offers for *equal or more than* the specified amount in % (0 to disable)
 ** Example: 99 will accept offers for 99% (or more) of the asking price
@@ -45,6 +45,9 @@ Original by Pinkie Pie -> https://github.com/pinkipi
 ## Changelog
 <details>
 
+### 1.1.0
+* [~] Now pulls strings directly from the game files (the module will ALWAYS be up-to-date!)
+* [-] Removed "strings" directory and files as they are not needed any longer
 ### 1.0.2
 * [+] Added notice on successful negotiation
 ### 1.0.1
